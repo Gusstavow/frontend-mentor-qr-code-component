@@ -53,10 +53,10 @@ h2{
 }
 
 h2,p{
-    padding: 0px 35px;
+    padding: 0px 30px;
     margin-bottom: 20px;
     text-align: center;
-    text-justify: 20px;
+    
 }
 
 p{
@@ -64,4 +64,6 @@ p{
     color: var(--cor-texto);
     
 }
+
+
 
