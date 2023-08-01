@@ -1,0 +1,67 @@
+*{
+    font-family: 'Outfit', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-fundo-conteudo: hsl(0, 0%, 100%);
+    --cor-titulo: hsl(218, 44%, 22%);
+    --cor-fundo: hsl(212, 45%, 89%);
+    --cor-texto:hsl(220, 15%, 55%);
+}
+
+
+div#imagem{
+    width: 355px;
+    height: 355px;
+    background-image: url(../images/image-qr-code.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+
+section#container{
+    border-radius: 20px;
+    padding: 20px 0px;
+   
+    width: 385px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+    background-color: var(--cor-fundo-conteudo);
+    
+}
+
+body{
+   background-color: var(--cor-fundo);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   
+}
+h2{
+    font-weight: 700;
+}
+
+h2,p{
+    padding: 0px 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-justify: 20px;
+}
+
+p{
+    font-size: 15px;
+    color: var(--cor-texto);
+    
+}
+
